@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/merge-development/static/css/main.ed1bfa49.css",
-    "main.js": "/merge-development/static/js/main.eb3ec26d.js",
+    "main.js": "/merge-development/static/js/main.fa5541d6.js",
     "static/js/787.987b58c9.chunk.js": "/merge-development/static/js/787.987b58c9.chunk.js",
     "static/media/tokenplace.png": "/merge-development/static/media/tokenplace.900795eddbe675fd004d.png",
     "static/media/fund-platform.png": "/merge-development/static/media/fund-platform.e89b37a117c3deb41363.png",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/merge-development/static/media/logo.c2ccbf3c10244815f57e56fc1826fe9d.svg",
     "index.html": "/merge-development/index.html",
     "main.ed1bfa49.css.map": "/merge-development/static/css/main.ed1bfa49.css.map",
-    "main.eb3ec26d.js.map": "/merge-development/static/js/main.eb3ec26d.js.map",
+    "main.fa5541d6.js.map": "/merge-development/static/js/main.fa5541d6.js.map",
     "787.987b58c9.chunk.js.map": "/merge-development/static/js/787.987b58c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed1bfa49.css",
-    "static/js/main.eb3ec26d.js"
+    "static/js/main.fa5541d6.js"
   ]
 }
