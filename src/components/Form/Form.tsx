@@ -33,6 +33,7 @@ export const Form = <TFormValues extends FieldValues = FieldValues>({
         methods.reset();
       })}
       id={id}
+      noValidate
     >
       {children(methods)}
     </form>
