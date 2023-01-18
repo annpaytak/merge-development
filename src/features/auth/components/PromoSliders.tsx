@@ -40,7 +40,6 @@ export const PromoSliders = () => {
         }}
         centeredSlides={true}
         pagination={{
-          dynamicBullets: true,
           clickable: true,
         }}
         modules={[Autoplay, Pagination]}
@@ -48,7 +47,7 @@ export const PromoSliders = () => {
       >
         {promoSliders.map(({ title, description, image }) => (
           <SwiperSlide className="flex" key={title}>
-            <div className="h-auto m-auto pb-10">
+            <div className="h-auto m-auto pb-14">
               <img
                 className="object-fill w-full max-w-lg drop-shadow-2xl mb-10"
                 src={image}

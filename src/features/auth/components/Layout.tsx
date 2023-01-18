@@ -9,13 +9,17 @@ export const Layout = () => {
     <div className="w-full lg:h-full md:h-auto bg-white rounded-xl overflow-hidden lg:flex lg:items-center lg:p-5">
       <PromoSliders />
       <div className="flex flex-col w-full lg:h-full items-start justify-between sm:max-w-md sm:w-full sm:my-auto lg:w-5/12 sm:mx-auto px-6 py-7 lg:px-8">
-        <img className="h-[31px]" src={Logo} alt="Logo" />
+        <img
+          className="h-[31px] self-center lg:self-start"
+          src={Logo}
+          alt="Logo"
+        />
         <main className="w-full mb-14">
           <div>
-            <h1 className="text-[28px] font-bold tracking-tight text-gray-900 mt-6">
+            <h1 className="text-[28px] font-bold tracking-tight text-gray-900 mt-6 text-center lg:text-left">
               Sign in
             </h1>
-            <p className="mt-5 text-sm text-gray-600 lg:mb-14">
+            <p className="mt-5 text-sm text-gray-600 lg:mb-14 text-center lg:text-left">
               Don’t have an account?
               <a
                 href="/"
@@ -27,7 +31,7 @@ export const Layout = () => {
             <LoginForm />
           </div>
         </main>
-        <ul className="flex justify-between w-full lg:justify-start">
+        <ul className="flex justify-center w-full lg:justify-start">
           <li>
             <a
               href="/"
