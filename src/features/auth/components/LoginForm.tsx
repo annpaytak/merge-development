@@ -17,6 +17,7 @@ export const LoginForm = () => {
       onSubmit={async (values) => {
         await login(values);
       }}
+      options={{ defaultValues: { email: "", password: "" } }}
     >
       {({ control, formState: { errors } }) => (
         <>
@@ -31,7 +32,7 @@ export const LoginForm = () => {
                 pattern: EMAIL_REGEX,
                 maxLength: 45,
               }}
-              error={errors["email"]}
+              error={errors.email}
               errorMessage="Invalid email"
               autoComplete="email"
             />
@@ -44,7 +45,7 @@ export const LoginForm = () => {
                 required: true,
                 minLength: 8,
               }}
-              error={errors["password"]}
+              error={errors.password}
               errorMessage="Invalid format too short"
               autoComplete="current-password"
               trailingButton={

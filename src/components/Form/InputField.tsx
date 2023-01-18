@@ -29,7 +29,7 @@ export const InputField = <TFormValues extends Record<string, unknown>>({
   type = "text",
   rules,
   error,
-  errorMessage,
+  errorMessage = `Invalid ${name}`,
   autoComplete,
   trailingButton,
 }: InputFieldProps<TFormValues>) => {
@@ -46,7 +46,7 @@ export const InputField = <TFormValues extends Record<string, unknown>>({
           >
             {name}
           </label>
-          {error && errorMessage && (
+          {error && (
             <span className="absolute right-0 text-xs text-error mt-1">
               {errorMessage}
             </span>
