@@ -62,7 +62,7 @@ export const InputField = <TFormValues extends Record<string, unknown>>({
               ${
                 fieldState.error
                   ? "border-error text-error ring-error focus:border-error focus:text-error focus:ring-error"
-                  : !fieldState.invalid
+                  : value && !fieldState.invalid
                   ? "border-complete ring-complete"
                   : ""
               }`}
